@@ -28,6 +28,7 @@ typedef void(^DRCellSlideActionStateBlock)(DRCellSlideAction *action, BOOL activ
 @property (nonatomic, strong) UIColor *activeColor;
 @property (nonatomic, strong) UIColor *inactiveColor;
 
+@property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) UIImage *icon;
 @property (nonatomic) CGFloat iconMargin;
 

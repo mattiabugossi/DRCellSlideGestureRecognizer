@@ -20,7 +20,8 @@
 		_activeBackgroundColor = [UIColor blueColor];
 		_inactiveBackgroundColor = [UIColor colorWithWhite:0.94 alpha:1];
 		_activeColor = _inactiveColor = [UIColor whiteColor];
-		_iconMargin = 25;
+		_iconMargin = 10;
+        _behavior = DRCellSlideActionPushBehavior;
 	}
 	
 	return self;
